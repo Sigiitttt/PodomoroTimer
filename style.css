@@ -1,0 +1,166 @@
+    <style>body.light-mode {
+        background: linear-gradient(20deg, #31a1e7, #ffffff, #ffb2f1);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        transition: background 0.5s;
+        color: #333333;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    body.light-mode .container {
+        background-color: #f9f9f9;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.4s;
+    }
+    
+    body.light-mode .tombol-mode {
+        background-color: #333;
+        color: #fff;
+    }
+    
+    body.dark-mode {
+        transition: background 0.5s;
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    body.dark-mode .container {
+        background-color: #2e2e2e;
+        transition: background-color 0.4s;
+    }
+    
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    body.dark-mode .tombol-mode {
+        background-color: #00cefc;
+        color: #fff;
+    }
+    
+    .container {
+        max-width: 400px;
+        margin: 80px auto;
+        padding: 20px;
+        border-radius: 0px;
+        text-align: center;
+    }
+    
+    .penghitung-waktu {
+        font-size: 64px;
+        margin: 20px 0;
+        animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .status {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .tombol {
+        width: 90px;
+        margin: 5px;
+        font-size: 16px;
+        transition: transform 0.1s;
+    }
+    
+    .tombol:active {
+        transform: scale(0.95);
+    }
+    
+    .tombol-mulai {
+        background-color: #4dd4fa;
+        border-color: #4dd4fa;
+    }
+    
+    .tombol-jeda {
+        background-color: #f0ad4e;
+        border-color: #f0ad4e;
+    }
+    
+    .tombol-ulang {
+        background-color: #d9534f;
+        border-color: #d9534f;
+    }
+    
+    .sesi-selesai {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .kontrol-audio {
+        display: none;
+    }
+    
+    .input-waktu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    .input-waktu button {
+        font-size: 20px;
+        margin: 0 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #61dafb;
+        border: none;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: transform 0.1s;
+    }
+    
+    .input-waktu button:active {
+        transform: scale(0.95);
+    }
+    
+    .input-waktu span {
+        font-size: 20px;
+        width: 50px;
+        text-align: center;
+    }
+    
+    .tombol-mode {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: #61dafb;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.1s;
+    }
+    
+    .tombol-mode:active {
+        transform: scale(0.95);
+    }
+    
+    .deskripsi-waktu {
+        font-size: 14px;
+        margin-top: 10px;
+    }
