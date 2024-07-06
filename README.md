@@ -14,14 +14,20 @@ Ini adalah aplikasi Pomodoro Timer berbasis web sederhana yang dikembangkan meng
 3. **Jeda dan Ulang**: Gunakan tombol "Jeda" untuk menghentikan timer sementara dan "Ulang" untuk mengatur ulang timer.
 4. **Ganti Mode Tampilan**: Klik tombol "Light Mode" atau "Dark Mode" untuk mengubah tampilan antarmuka.
 
-## Pengembangan
-Aplikasi ini dikembangkan dengan menggunakan teknologi web modern:
-- **HTML**: Struktur dasar halaman web.
-- **CSS**: Styling dan animasi antarmuka pengguna.
-- **JavaScript**: Logika aplikasi untuk pengaturan waktu dan kontrol timer.
+## Struktur Proyek
+- `index.html`: File HTML utama.
+- `styles.css`: File CSS untuk styling.
+- `script.js`: File JavaScript untuk logika aplikasi.
+
+## Instalasi
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/sigitttt/ToDo_List.git
+   
+2. Buka file index.html di browser Anda.
 
 ## Kontribusi
-Kontribusi dan saran perbaikan selalu dipersilakan. Jika Anda ingin berkontribusi pada proyek ini, silakan buat _pull request_ di repositori ini.
+Kontribusi sangat dihargai! Silakan buat pull request untuk fitur baru, perbaikan bug, atau peningkatan lainnya.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file `LICENSE` untuk detail lebih lanjut.
@@ -29,4 +35,3 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat file `LICENSE` untuk detail
 ---
 
 Terima kasih telah menggunakan aplikasi Pomodoro Timer ini. Semoga membantu meningkatkan produktivitas Anda!
-
