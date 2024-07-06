@@ -22,7 +22,7 @@ Ini adalah aplikasi Pomodoro Timer berbasis web sederhana yang dikembangkan meng
 ## Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/sigitttt/ToDo_List.git
+   git clone https://github.com/sigitttt/PodomoroTimer.git
    
 2. Buka file index.html di browser Anda.
 
